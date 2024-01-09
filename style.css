@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+.parent{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right,purple,rgb(255, 0, 153));
+}
+
+.child{
+    background-color: #fff;
+    height: max-content;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 20px ghostwhite;
+}
+
+.child h1{
+   text-align: center;
+   padding-bottom: 10px;
+}
+
+#taskInput, #priorityInput{
+    font-size: medium;
+    border-radius: 30px;
+    border: 1.5px solid rgb(255, 0, 153);
+    transition-duration: 500ms;
+}
+
+.innercontent{
+    padding-top: 15px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+#adtk{
+    font-size: 16px;
+    padding: 0 20px 0 20px ;
+    border-radius: 15px;
+    border: 1.5px solid rgb(255, 0, 153);
+    background: white;
+    transition-duration: 500ms;
+}
+
+#adtk:hover{
+    border: 1.5px solid rgb(255, 0, 153);
+    background:rgb(255, 0, 153);
+    color: #fff;
+    transition-duration: 500ms;
+    box-shadow: 0 0 10px rgb(255, 0, 153);
+    font-size: 18px;
+}
+
+.datetime{
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 0 10px 0 10px;
+    border: 1.5px solid rgb(255, 0, 153);
+    transition-duration: 500ms;
+}
+
+.datetime:hover, #taskInput:hover, #priorityInput:hover{
+    box-shadow: 0 0 10px rgb(255, 0, 153);
+    transition-duration: 500ms;
+}
